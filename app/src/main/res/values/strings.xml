@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Emission</string>
+    <string name="title_code_mssg">CODE</string>
+    <string name="title_power_mssg">POWER</string>
+    <string name="title_free_mssg">FOR FREE</string>
+    <string name="title_adress_mssg">ADRESS</string>
+    <string name="log_in_mssg">LOG IN</string>
+    <string name="username_title_mssg">USERNAME</string>
+    <string name="username_hint_mssg">Write your username here</string>
+    <string name="password_title_mssg">PASSWORD</string>
+    <string name="password_hint_mssg">Write your password here</string>
+    <string name="log_in_button_title">LOGIN</string>
+    <string name="register_button_title">REGISTER</string>
+    <string name="modify_button_title">MODIFY</string>
+    <string name="delete_button_title">DELETE</string>
+    <string name="return_button_title">RETURN</string>
+    <string name="title_name_mssg">NAME</string>
+    <string name="title_username_mssg">USERNAME</string>
+    <string name="title_password_mssg">PASSWORD</string>
+    <string name="add_button_title">ADD</string>
+    <string name="title_license_plate_mssg">LICENSE PLATE</string>
+    <string name="title_brand_mssg">BRAND</string>
+    <string name="title_model_mssg">MODEL</string>
+    <string name="tile_autonomy_mssg">AUTONOMY</string>
+    <string name="title_hybrid_mssg">HYBRID</string>
+    <string name="charging_points_title">CHARGING POINTS</string>
+    <string name="modify_my_profile_button_mssg">MODIFY MY PROFILE</string>
+    <string name="delete_acount_button_mssg">DELETE ACOUNT</string>
+    <string name="my_vehicles_mssg">MY VEHICLES</string>
+    <string name="title_occupied_mssg">OCCUPIED</string>
+    <string name="occupy_mssg">OCCUPY</string>
+    <string name="view_mssg">VIEW</string>
+    <string name="add_charging_points_mssg">ADD CHARGING POINTS</string>
+    <string name="view_map_mssg">VIEW MAP</string>
+    <string name="my_profile_mssg">MY PROFILE</string>
+    <string name="add_vehicle_mssg">ADD VEHICLE</string>
+    <string name="view_vehicle_mssg">VIEW VEHICLE</string>
+    <string name="yes">YES</string>
+    <string name="are_you_sure_message">¿Are you sure?</string>
+    <string name="remove_task_message">DELETE ACCOUNT</string>
+    <string name="remove_charging_point_message">DELETE CHARGING POINT</string>
+    <string name="no">NO</string>
+    <string name="title_activity_modify_vehicle">ModifyVehicleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="corpo_info">We face the problem</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="task_registered_error">username or password was wrong</string>
+    <string name="charging_point_update">Charging point update succesfully</string>
+    <string name="update_user">User update succesfully</string>
+    <string name="update_vehicle">Vehicle update succesfully</string>
+    <string name="add_charging_points">Charging point insert succesfully</string>
+    <string name="choose_point_map">Choose a point on the map</string>
+    <string name="add_user">User registed successfully</string>
+    <string name="add_vehicle">Vehicle insert succesfully</string>
+    <string name="remove_vehicle_title">DELETE VEHICLE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

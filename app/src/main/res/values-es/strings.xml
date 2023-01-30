@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Emission</string>
+    <string name="title_code_mssg">CÓDIGO</string>
+    <string name="title_power_mssg">POTENCIA</string>
+    <string name="title_free_mssg">SIN COSTE</string>
+    <string name="title_adress_mssg">DIRECCIÓN</string>
+    <string name="log_in_mssg">INICIAR SESIÓN</string>
+    <string name="username_title_mssg">NOMBRE DE USUARIO</string>
+    <string name="username_hint_mssg">Introduce tu nombre de usuario</string>
+    <string name="password_title_mssg">CONTRASEÑA</string>
+    <string name="password_hint_mssg">Introduce tu contraseña</string>
+    <string name="log_in_button_title">INICIAR SESIÓN</string>
+    <string name="register_button_title">REGISTRAR</string>
+    <string name="modify_button_title">MODIFICAR</string>
+    <string name="delete_button_title">ELIMINAR</string>
+    <string name="return_button_title">VOLVER</string>
+    <string name="title_name_mssg">NOMBRE</string>
+    <string name="title_username_mssg">NOMBRE DE USUARIO</string>
+    <string name="title_password_mssg">CONTRASEÑA</string>
+    <string name="add_button_title">AÑADIR</string>
+    <string name="title_license_plate_mssg">MATRÍCULA</string>
+    <string name="title_brand_mssg">MARCA</string>
+    <string name="title_model_mssg">MODEOL</string>
+    <string name="tile_autonomy_mssg">AUTONOMIA</string>
+    <string name="title_hybrid_mssg">HÍBRIDO</string>
+    <string name="charging_points_title">TOMAS ELÉCTRICAS</string>
+    <string name="modify_my_profile_button_mssg">MODIFICAR MI PERFIL</string>
+    <string name="delete_acount_button_mssg">ELIMINAR CUENTA</string>
+    <string name="my_vehicles_mssg">MIS VEHÍCULOS</string>
+    <string name="title_occupied_mssg">OCUPADA</string>
+    <string name="occupy_mssg">OCUPAR</string>
+    <string name="view_mssg">VER DETALLES</string>
+    <string name="add_charging_points_mssg">AÑADIR TOMA ELÉCTRICA</string>
+    <string name="view_map_mssg">VER MAPA</string>
+    <string name="my_profile_mssg">MI PERFIL</string>
+    <string name="add_vehicle_mssg">AÑADIR VEHÍCULO</string>
+    <string name="view_vehicle_mssg">VER MIS VEHÍCULOS</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="are_you_sure_message">¿Estas seguro?</string>
+    <string name="remove_task_message">ELIMINAR SESIÓN</string>
+    <string name="remove_charging_point_message">ELIMINAR TOMA ELÉCTRICA</string>
+    <string name="corpo_info">Afrontamos el problema</string>
+
+</resources>

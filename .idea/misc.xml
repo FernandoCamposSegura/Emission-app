@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_charging_point_details.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_map.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_modify_charging_point.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_modify_user.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_modify_vehicle.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_register_charging_point.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_register_user.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_register_vehicle.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_vehicle_details.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_view_charging_points.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_view_profile.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/activity_view_vehicles.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/charging_point_item.xml" value="0.29102564102564105" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/fragment_info_corporation.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/layout/vehicle_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/menu/actionbar.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/menu/profile_actionbar.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/mipmap-anydpi-v26/charging_point_marker.xml" value="0.2505" />
+        <entry key="..\:/Users/campo/AndroidStudioProjects/Emission/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2505" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

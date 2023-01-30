@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="30dp"
+    tools:context=".VehicleDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vehicle_backg_2"
+        android:orientation="vertical"
+        android:padding="30px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_license_plate_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailLicensePlate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailTitleBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_brand_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailTitleModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_model_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailTitleAutonomy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tile_autonomy_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/tv_vehicleDetailAutonomy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_vehicleDetailTitleHybrid"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_hybrid_mssg"
+                android:textAlignment="center"
+                android:textColor="#555555"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_vehicleDetailHybrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#555555" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_goDetailToMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="updateVehicle"
+            android:text="@string/modify_button_title"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_deleteChargingPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FF5656"
+                android:onClick="deleteVehicle"
+                android:text="@string/delete_button_title"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_goDetailToMain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#555555"
+            android:onClick="goBack"
+            android:text="@string/return_button_title"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

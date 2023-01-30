@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RegisterUserActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/bt_addUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="registerUser"
+            android:text="@string/register_button_title"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#666666"
+            android:onClick="goBack"
+            android:text="@string/return_button_title"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-178dp">
+
+        <TextView
+            android:id="@+id/tv_registerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_name_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Santi"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_registerChargingAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/username_title_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="santi2022"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password_hint_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="******"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_registerAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_adress_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="C/ Benavente 25"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

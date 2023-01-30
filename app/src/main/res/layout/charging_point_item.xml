@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_charging_point_small"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_code_mssg"
+        android:textAlignment="center"
+        android:textColor="#424242"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_viewChargingCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#424242"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_registerChargingCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_occupied_mssg"
+        android:textAlignment="center"
+        android:textColor="#424242"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cb_viewChargingOccupy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_occupyChargingPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:text="@string/occupy_mssg"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_viewChargingPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/view_mssg"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

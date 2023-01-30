@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vehicle_backg"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_license_plate_mssg"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_vehicleLicensePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_vehicleTitleBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_brand_mssg"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_vehicleBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_model_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_vehicleModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_viewVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/view_mssg"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</LinearLayout>

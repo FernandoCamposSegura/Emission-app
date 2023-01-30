@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RegisterVehicleActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/bt_modifyUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3F51B5"
+            android:onClick="registerVehicle"
+            android:text="@string/register_button_title"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#666666"
+            android:onClick="goBack"
+            android:text="@string/return_button_title"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-178dp">
+
+        <TextView
+            android:id="@+id/tv_modifyLicensePlateVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_license_plate_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerLicensePlateVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="4560LVZ"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_modifyUserTitleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_brand_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerVehicleBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Seat"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_modifyUserTitleUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_model_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerVehicleModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ibiza"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_modifyUserTitlePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tile_autonomy_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registerVehicleAutonomy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="200"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+        <TextView
+            android:id="@+id/tv_modifyUserTitleAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_hybrid_mssg"
+            android:textAlignment="center"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb_registerVehicleHybrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#555555" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
